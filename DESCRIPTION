@@ -1,8 +1,8 @@
 Package: myvariant
 Type: Package
 Title: Accesses MyVariant.info variant query and annotation services
-Version: 1.39.0
-Date: 2015-07-10
+Version: 1.39.1
+Date: 2025-07-22
 Author: Adam Mark
 Maintainer: Adam Mark, Chunlei Wu <cwu@scripps.edu>
 Description: MyVariant.info is a comprehensive aggregation of variant
@@ -10,7 +10,7 @@ Description: MyVariant.info is a comprehensive aggregation of variant
         MyVariant.info services
 License: Artistic-2.0
 Depends: R (>= 3.2.1), VariantAnnotation
-Imports: httr, jsonlite, S4Vectors, Hmisc, plyr, magrittr, GenomeInfoDb
+Imports: httr, jsonlite, S4Vectors, Hmisc, plyr, magrittr, Seqinfo, GenomeInfoDb
 Suggests: BiocStyle
 biocViews: VariantAnnotation, Annotation, GenomicVariation
 NeedsCompilation: no
